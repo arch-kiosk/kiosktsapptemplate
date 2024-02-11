@@ -6,6 +6,11 @@ It does not contain the Python part for a plugin, so this is only the "app" part
 - This needs an initial `npm link {path-to-kiosktsapplib library} --save`
 - then the usual changes in the package.json, where all "kiosktsapptemplate" occurences have to be replaced with the actual project
 - the app.ts is the starting point for development.
+### caveats
+Currently you get
+> Pre-transform error: Failed to load url /kiosktsapplib/kioskdevstarter.ts'
+
+from vite when running this with the dev server. Can simply be ignored. 
 
 ### typical workplaces for the Kiosk Team
 - 🧪 [testers work here](https://github.com/arch-kiosk/arch-kiosk-office/projects/25)
