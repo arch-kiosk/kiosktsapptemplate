@@ -1,14 +1,17 @@
-# 💼 The Office
+# 📦 Kiosk TypeScript App Template
  
-## 🤸🏿👽🕵️ This repository is for people 🤸🤖🎅
+Just a template with boilerplate to start a new Kiosk front-end app or library.
+It does not contain the Python part for a plugin, so this is only the "app" part of a plugin. 
+### how to use
+- This needs an initial `npm link {path-to-kiosktsapplib library} --save`
+- then the usual changes in the package.json, where all "kiosktsapptemplate" occurences have to be replaced with the actual project
+- the app.ts is the starting point for development.
 
-No matter for which field-project or which part of the software, it is here and only here in this repository where we all collaborate, report bugs and ideas, discuss ...
-
-## typical workplaces
+### typical workplaces for the Kiosk Team
 - 🧪 [testers work here](https://github.com/arch-kiosk/arch-kiosk-office/projects/25)
 - 🪲 [please file requests and bug tickets under Issues](https://github.com/arch-kiosk/arch-kiosk-office/issues)
 
-## other places
+### other places
 
 📗 **documentation and video tutorials for users and admins can be found on the official [Kiosk web-site](https://sites.brown.edu/kiosk)**
 
